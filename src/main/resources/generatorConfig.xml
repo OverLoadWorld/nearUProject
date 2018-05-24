@@ -44,7 +44,7 @@
         </javaModelGenerator>
 
         <!--对应的xml mapper文件  -->
-        <sqlMapGenerator targetPackage="${sqlMapperPackage}" targetProject="${targetProject}" >
+        <sqlMapGenerator targetPackage="${sqlMapperPackage}" targetProject="${targetProjectResources}" >
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
