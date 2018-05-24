@@ -11,3 +11,4 @@ junit-report
 *.iml
 /target/
 logs/
+out/
